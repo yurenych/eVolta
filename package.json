@@ -1,0 +1,11 @@
+{
+  "name": "evolta",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/yurenych/eVolta",
+  "author": "yurenych@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
