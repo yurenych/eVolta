@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
   next();
 })
 
-app.use(express.static('build'))
+app.use(express.static('./'))
 
 var credentials = {
   key: fs.readFileSync('security/private.key', 'utf8'),
